@@ -1,5 +1,9 @@
 
 
+## The Architecture of Our Model
+
+![](imgs/diagram.svg)
+
 ## Examples
 
 ---
@@ -13,7 +17,7 @@ Singing voice of JLEE:
     <tr>
       <th>Target</th>
       <!-- th>Original voice</th-->
-      <th>USVC</th>
+      <th>Nachmani. et.al</th>
       <th>Ours</th>
     </tr>
   </thead>
@@ -120,4 +124,3 @@ SInging voice of JTAN:
     </tr>
   </tbody>
 </table>
-
