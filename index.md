@@ -17,7 +17,7 @@ Singing voice of JLEE:
     <tr>
       <th>Target</th>
       <!-- th>Original voice</th-->
-      <th>Nachmani. et.al</th>
+      <th><a href="https://arxiv.org/abs/1904.06590">Nachmani et al.</a></th>
       <th>Ours</th>
     </tr>
   </thead>
@@ -68,7 +68,7 @@ Singing voice of JLEE:
 
 ---
 
-SInging voice of JTAN:
+Singing voice of JTAN:
 
 <audio controls="" preload="auto">
             <source src="wavs/Origin/JTAN-16.wav"></audio>
@@ -78,7 +78,7 @@ SInging voice of JTAN:
     <tr>
       <th>Target</th>
       <!-- th>Original voice</th-->
-      <th>USVC</th>
+      <th>Nachmani et al.</th>
       <th>Ours</th>
     </tr>
   </thead>
@@ -124,3 +124,4 @@ SInging voice of JTAN:
     </tr>
   </tbody>
 </table>
+
