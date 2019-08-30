@@ -8,7 +8,70 @@
 
 ---
 
+
+Singing voice of VKOW: 
+
+<audio controls="" preload="auto">
+            <source src="wavs/Origin/VKOW-11.wav"></audio>
+
+<table>
+  <thead>
+    <tr>
+      <th>Target</th>
+      <!-- th>Original voice</th-->
+      <th><a href="https://arxiv.org/abs/1904.06590">Nachmani et al.</a></th>
+      <th>Ours</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>JLEE</td>
+      <!--td><audio controls="" preload="auto">
+            <source src="wavs/Origin/JLEE-08.wav"></audio></td-->
+      <td><audio controls="" preload="auto">
+            <source src="wavs/USVC/VKOW-11-JLEE.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Ours/VKOW-11-JLEE.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>JTAN</td>
+      <!--td> </td-->
+      <td><audio controls="" preload="auto">
+            <source src="wavs/USVC/VKOW-11-JTAN.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Ours/VKOW-11-JTAN.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>KENN</td>
+      <!--td> </td-->
+      <td><audio controls="" preload="auto">
+            <source src="wavs/USVC/VKOW-11-KENN.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Ours/VKOW-11-KENN.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>SAMF</td>
+      <!--td> </td-->
+      <td><audio controls="" preload="auto">
+            <source src="wavs/USVC/VKOW-11-SAMF.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Ours/VKOW-11-SAMF.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>ZHIY</td>
+      <!--td> </td-->
+      <td><audio controls="" preload="auto">
+            <source src="wavs/USVC/VKOW-11-ZHIY.wav"></audio></td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Ours/VKOW-11-ZHIY.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+----
+
 Singing voice of JLEE: 
+
 <audio controls="" preload="auto">
             <source src="wavs/Origin/JLEE-08.wav"></audio>
 
@@ -124,3 +187,4 @@ Singing voice of JTAN:
     </tr>
   </tbody>
 </table>
+
