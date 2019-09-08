@@ -14,7 +14,7 @@ Singing voice of VKOW:
 <audio controls="" preload="auto">
             <source src="wavs/Origin/VKOW-11.wav"></audio>
 
-<table>
+<table align="center">
   <thead>
     <tr>
       <th>Target</th>
@@ -188,3 +188,38 @@ Singing voice of JTAN:
   </tbody>
 </table>
 
+<br>
+
+**Converted results of different pitches as input**
+
+\* *Convert from VKOW to JLEE*
+
+Source:  
+<audio controls="" preload="auto">
+            <source src="wavs/Origin/VKOW-11.wav"></audio>
+
+<table>
+  <thead>
+    <tr>
+      <th>Input Pitch</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pitch x 1.0</td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Pitch/VKOW-11-JLEE-1.0.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>pitch x 0.7</td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Pitch/VKOW-11-JLEE-0.7.wav"></audio></td>
+    </tr>
+    <tr>
+      <td>pitch x 1.2</td>
+      <td><audio controls="" preload="auto">
+            <source src="wavs/Pitch/VKOW-11-JLEE-1.2.wav"></audio></td>
+    </tr>
+  </tbody>
+</table>
