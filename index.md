@@ -1,8 +1,30 @@
+# <center>PitchNet: Pitch Controllable Singing Voice Conversion Network with Non-parallel Data</center>
 
+<center>ChengqiDeng, Chengzhu Yu</center><br>
+<center>Zhejiang University, Tencent AI Lab</center>
+
+<br>
+
+
+
+## Abstract
+
+<div style="text-align: justify"> Singing voice conversion is to convert one's singing voice to match another one's timbre without modifying the content. Recent work shows that it's feasible to employ an autoencoder network training with non-parallel data to convert one's songs to a specified singer. However, the converted singing voice can be easily off-key, showing that it can't catch the pitch information precisely. In this paper, we propose PitchNet, a novel unsupervised singing voice conversion method based on the autoencoder architecture. We extract pitch information additionally and inject it into the decoder network while a pitch regression network is employed to force the encoder to split pitch information out of the latent space of the autoencoder. Experiments show that our method can greatly improve the quality of the converted singing voice and enable us to control the pitch. </div>
+
+<br>
 
 ## The Architecture of Our Model
 
-![](imgs/diagram.svg)
+<table border="0">
+  <tbody>
+    <tr>
+      <td><img src="imgs/model.png" alt="Overall Architecture"></td>
+      <td><img src="imgs/submodels-cut.png" alt="Sub-models Architecture"></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
 
 ## Examples
 
@@ -67,7 +89,6 @@ Singing voice of VKOW:
     </tr>
   </tbody>
 </table>
-
 ----
 
 Singing voice of JLEE: 
@@ -128,7 +149,6 @@ Singing voice of JLEE:
     </tr>
   </tbody>
 </table>
-
 ---
 
 Singing voice of JTAN:
