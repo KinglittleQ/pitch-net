@@ -1,4 +1,4 @@
-# <center>PitchNet: Pitch Controllable Singing Voice Conversion Network with Non-parallel Data</center>
+# <center>PitchNet: Pitch Controllable Singing Voice Conversion <br>Network with Non-parallel Data</center>
 
 <center>ChengqiDeng, Chengzhu Yu</center><br>
 <center>Zhejiang University, Tencent AI Lab</center>
