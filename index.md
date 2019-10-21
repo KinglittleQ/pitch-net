@@ -1,6 +1,6 @@
 # <center>PitchNet: Pitch Controllable Singing Voice Conversion Network with Non-parallel Data</center>
 
-<center>ChengqiDeng, Chengzhu Yu</center><br>
+<center>Chengqi Deng, Chengzhu Yu</center><br>
 <center>Zhejiang University, Tencent AI Lab</center>
 
 <br>
@@ -210,7 +210,7 @@ Singing voice of JTAN:
 
 <br>
 
-**Converted results of different pitches as input**
+**Converted results of different pitch as input**
 
 \* *Convert from VKOW to JLEE*
 
