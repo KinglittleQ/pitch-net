@@ -1,7 +1,7 @@
-# <center>PitchNet: Pitch Controllable Singing Voice Conversion Network with Non-parallel Data</center>
+# <center>PitchNet: Unsupervised Singing Voice Conversion with Pitch Adversarial Network</center>
 
-<center>Chengqi Deng, Chengzhu Yu</center><br>
-<center>Zhejiang University, Tencent AI Lab</center>
+<center>Chengqi Deng<sup>1</sup>, Chengzhu Yu<sup>2</sup>, Heng Lu<sup>2</sup>, Chao Weng<sup>2</sup>, Dong Yu<sup>2</sup></center><br>
+<center><sup>1</sup>Zhejiang University, <sup>2</sup>Tencent AI Lab</center> 
 
 <br>
 
@@ -9,7 +9,8 @@
 
 ## Abstract
 
-<div style="text-align: justify"> Singing voice conversion is to convert one's singing voice to match another one's timbre without modifying the content. Recent work shows that it's feasible to employ an autoencoder network training with non-parallel data to convert one's songs to a specified singer. However, the converted singing voice can be easily off-key, showing that it can't catch the pitch information precisely. In this paper, we propose PitchNet, a novel unsupervised singing voice conversion method based on the autoencoder architecture. We extract pitch information additionally and inject it into the decoder network while a pitch regression network is employed to force the encoder to split pitch information out of the latent space of the autoencoder. Experiments show that our method can greatly improve the quality of the converted singing voice and enable us to control the pitch. </div>
+<div style="text-align: justify"> Singing voice conversion is to convert a singer's voice to another one's voice without changing singing content. Recent work shows that unsupervised singing voice conversion can be achieved with an autoencoder-based approach \cite{nachmani2019unsupervised}. However, the converted singing voice can be easily out of key, showing that the existing approach can not model the pitch information precisely.
+In this paper, we propose PitchNet, a novel unsupervised singing voice conversion method where an accurate pitch translation and flexible pitch manipulation can be achieved at the same time. The proposed PitchNet includes an adversarially trained pitch regression network to enforce the encoder network to learn pitch invariant phoneme representation. At the same time, it also includes a separate module where the pitch from the source audio is extracted and used as input to the decoder network. Our evaluation shows that the proposed method can greatly improve the quality of the converted singing voice. </div>
 
 <br>
 
