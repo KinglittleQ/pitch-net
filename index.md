@@ -9,7 +9,7 @@
 
 ## Abstract
 
-<div style="text-align: justify"> Singing voice conversion is to convert a singer's voice to another one's voice without changing singing content. Recent work shows that unsupervised singing voice conversion can be achieved with an autoencoder-based approach \cite{nachmani2019unsupervised}. However, the converted singing voice can be easily out of key, showing that the existing approach can not model the pitch information precisely.
+<div style="text-align: justify"> Singing voice conversion is to convert a singer's voice to another one's voice without changing singing content. Recent work shows that unsupervised singing voice conversion can be achieved with an autoencoder-based approach [<a href="https://arxiv.org/abs/1904.06590">1</a>]. However, the converted singing voice can be easily out of key, showing that the existing approach can not model the pitch information precisely.
 In this paper, we propose PitchNet, a novel unsupervised singing voice conversion method where an accurate pitch translation and flexible pitch manipulation can be achieved at the same time. The proposed PitchNet includes an adversarially trained pitch regression network to enforce the encoder network to learn pitch invariant phoneme representation. At the same time, it also includes a separate module where the pitch from the source audio is extracted and used as input to the decoder network. Our evaluation shows that the proposed method can greatly improve the quality of the converted singing voice. </div>
 
 <br>
