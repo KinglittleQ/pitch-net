@@ -26,7 +26,7 @@
 
 <br>
 
-## Examples
+## Audio Samples
 
 ---
 
